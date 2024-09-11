@@ -1,3 +1,7 @@
+/** 
+ * @TODO: 1. filter only the 1st week events 
+ * @TODO: 2. add automatic generation of repeating events by adding:  RRULE:FREQ=WEEKLY;UNTIL=20241219T090000
+*/
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
