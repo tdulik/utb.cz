@@ -13,7 +13,7 @@ void putLine(char *buffer, FILE *f) {
 int main(int argc, char *argv[]) {
 	FILE *f = stdin, *of=stdout;
 	char *eventString = "AUIUI/AK";
-	if (argc < 3) {
+	if (argc < 2) {
 		fprintf(stderr, "Cmd line missing arguments: FILE.ICS EVENT_STRING [OUTPUT_FILE.ICS]."
 				"I am using 'stdin' %s 'stdout'.\n"
 				"The EVENT_STRING is any string which occurs inside the EVENT section of the ICS file\n"
